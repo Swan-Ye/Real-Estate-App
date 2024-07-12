@@ -1,13 +1,18 @@
-import SearchBar from "../../components/searchBar/searchBar"
-import "./homePage.scss"
+import SearchBar from "../../components/searchBar/SearchBar";
+import "./homePage.scss";
 
-function homePage() {
+function HomePage() {
     return (
         <div className="homePage">
             <div className="textContainer">
                 <div className="wrapper">
                     <h1 className="title">Find Real Estate & Get Your Dream Place</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, molestiae odio quis exercitationem ipsam quod possimus alias quibusdam iste libero illum quasi, praesentium iusto modi fuga cumque necessitatibus ut? Odio.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                        explicabo suscipit cum eius, iure est nulla animi consequatur
+                        facilis id pariatur fugit quos laudantium temporibus dolor ea
+                        repellat provident impedit!
+                    </p>
                     <SearchBar />
                     <div className="boxes">
                         <div className="box">
@@ -29,7 +34,7 @@ function homePage() {
                 <img src="/bg.png" alt="" />
             </div>
         </div>
-    )
+    );
 }
 
-export default homePage
+export default HomePage;
